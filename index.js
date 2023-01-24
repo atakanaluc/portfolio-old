@@ -135,8 +135,11 @@ function toggleLanguage() {
     h3[0].innerHTML = "Hakkında";
     h3[1].innerHTML = "Projeler";
     h3[2].innerHTML = "İletişim";
-    p[0].innerHTML = "Adım Atakan Aluç. Web uygulamaları geliştiriyorum.";
-    p[1].innerHTML = "Daha proje yok. Bu site hariç.";
+    p[0].innerHTML = "Bu benim eski websitem.";
+    p[1].innerHTML = `
+    <a href="https://www.atakanaluc.com">atakanaluc.com</a> sitesini kontrol edebilirsiniz.`;
+    p[2].innerHTML = `
+    <a href="https://www.atakanaluc.com">atakanaluc.com</a> adresindeki iletişim formunu kullanabilirsiniz.`;
     label[0].innerHTML = "İsim";
     label[2].innerHTML = "Mesaj";
     input[0].alt = "Işık Değiştir";
@@ -170,8 +173,11 @@ function toggleLanguage() {
     h3[0].innerHTML = "About";
     h3[1].innerHTML = "Projects";
     h3[2].innerHTML = "Contact";
-    p[0].innerHTML = "My name is Atakan Aluc. I develop web applications.";
-    p[1].innerHTML = "No projects yet. Except this site.";
+    p[0].innerHTML = "Bu benim eski websitem.";
+    p[1].innerHTML = `
+    Check out <a href="https://www.atakanaluc.com">atakanaluc.com</a>.`;
+    p[2].innerHTML = `You can use the contact form at
+    <a href="https://www.atakanaluc.com">atakanaluc.com</a>.`;
     label[0].innerHTML = "Name";
     label[2].innerHTML = "Message";
     input[0].alt = "Change Lightness";
@@ -372,6 +378,8 @@ if (localStorage.getItem("languagechange") == "turkish") {
   h3[2].innerHTML = "İletişim";
   p[0].innerHTML = "Adım Atakan Aluç. Web uygulamaları geliştiriyorum.";
   p[1].innerHTML = "Daha proje yok. Bu site hariç.";
+  p[2].innerHTML = `
+  <a href="https://www.atakanaluc.com">atakanaluc.com</a> adresindeki iletişim formunu kullanabilirsiniz.`;
   label[0].innerHTML = "İsim";
   label[2].innerHTML = "Mesaj";
   input[0].alt = "Işık Değiştir";

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Atakan Aluc's Portfolio Website" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atakanaluc</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#about" class="nav-tabs">About</a>
+      <a href="#projects" class="nav-tabs">Projects</a>
+      <a href="#contact" class="nav-tabs">Contact</a>
+    </nav>
+    <aside class="aside-top">
+      <a href="mailto:contact@atakanaluc.com"
+        ><abbr title="Email Address"
+          ><img
+            src="./media/mail-icon-dark.png"
+            alt="Mail Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+      <a href="tel:+test"
+        ><abbr title="Phone Number"
+          ><img
+            src="./media/phone-icon-dark.png"
+            alt="Phone Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+      <a target="_blank" href="./atakanaluc-resume.pdf"
+        ><abbr title="Resume"
+          ><img
+            src="./media/resume-icon-dark.png"
+            alt="Resume Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+    </aside>
+    <aside class="aside-top2">
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=test"
+        ><abbr title="WhatsApp"
+          ><img
+            src="./media/whatsapp-icon-dark.png"
+            alt="WhatsApp Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+      <a target="_blank" href="https://github.com/atakanaluc/"
+        ><abbr title="GitHub"
+          ><img
+            src="./media/github-icon-dark.png"
+            alt="GitHub Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+      <a target="_blank" href="https://www.linkedin.com/in/atakanaluc/"
+        ><abbr title="LinkedIn"
+          ><img
+            src="./media/linkedin-icon-dark.png"
+            alt="LinkedIn Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+      <a target="_blank" href="https://leetcode.com/atakanaluc/"
+        ><abbr title="LeetCode"
+          ><img
+            src="./media/leetcode-icon-dark.png"
+            alt="LeetCode Icon"
+            height="45"
+            width="45" /></abbr
+      ></a>
+    </aside>
+    <aside class="aside-bottom">
+      <abbr title="Change Lightness"
+        ><input
+          alt="Change Lightness"
+          height="80"
+          width="80"
+          type="image"
+          src="media/dark-mode-icon-dark.png"
+      /></abbr>
+      <abbr title="Change Theme"
+        ><input
+          alt="Change Theme"
+          height="80"
+          width="80"
+          type="image"
+          src="media/change-theme-icon-dark.png"
+      /></abbr>
+      <abbr title="Change Language"
+        ><input
+          alt="Change Language"
+          height="80"
+          width="80"
+          type="image"
+          src="media/turkish-icon.png"
+      /></abbr>
+    </aside>
+    <main>
+      <section id="about">
+        <h3>About</h3>
+        <p>My name is Atakan Aluc. I develop web applications.</p>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <p>No projects yet. Except this site.</p>
+      </section>
+      <section class="contact" id="contact">
+        <h3>Contact</h3>
+        <form
+          action="https://formsubmit.co/aca74550e98daa47c1072fffea5a637e"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://atakanaluc.com"
+            alt="Hidden"
+          />
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              alt="Name Input"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              alt="Email Input"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="but" id="button" type="submit" value="Submit">
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <noscript>You need JavaScript to properly run this website!</noscript>
+  </body>
+</html>

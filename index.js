@@ -376,8 +376,9 @@ if (localStorage.getItem("languagechange") == "turkish") {
   h3[0].innerHTML = "Hakkında";
   h3[1].innerHTML = "Projeler";
   h3[2].innerHTML = "İletişim";
-  p[0].innerHTML = "Adım Atakan Aluç. Web uygulamaları geliştiriyorum.";
-  p[1].innerHTML = "Daha proje yok. Bu site hariç.";
+  p[0].innerHTML = "Bu benim eski websitem.";
+  p[1].innerHTML = `
+  <a href="https://www.atakanaluc.com">atakanaluc.com</a> sitesini kontrol edebilirsiniz.`;
   p[2].innerHTML = `
   <a href="https://www.atakanaluc.com">atakanaluc.com</a> adresindeki iletişim formunu kullanabilirsiniz.`;
   label[0].innerHTML = "İsim";
